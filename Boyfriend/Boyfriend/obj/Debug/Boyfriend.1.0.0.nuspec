@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Boyfriend</id>
+    <version>1.0.0</version>
+    <title>Boyfriend</title>
+    <authors>overflowed-stack</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>boyfriend.jpg</icon>
+    <readme>README.md</readme>
+    <description>Library that adds you an ability to get a boyfriend</description>
+    <tags>boyfriend date get a boyfriend</tags>
+    <repository type="git" url="https://github.com/overflowed-stack/Boyfriend" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\spayd\OneDrive\Робочий стіл\temp\Boyfriend\Boyfriend\Boyfriend\bin\Debug\netstandard2.1\Boyfriend.dll" target="lib\netstandard2.1\Boyfriend.dll" />
+    <file src="C:\Users\spayd\OneDrive\Робочий стіл\boyfriend.jpg" target="\boyfriend.jpg" />
+    <file src="C:\Users\spayd\OneDrive\Робочий стіл\temp\Boyfriend\README.md" target="\README.md" />
+  </files>
+</package>

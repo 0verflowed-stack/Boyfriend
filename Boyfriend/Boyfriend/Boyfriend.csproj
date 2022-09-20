@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Title>Boyfriend</Title>
+    <Authors>overflowed-stack</Authors>
+    <Company>overflowed-stack</Company>
+    <Description>Library that adds you an ability to get a boyfriend</Description>
+    <PackageIcon>boyfriend.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/overflowed-stack/Boyfriend</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>boyfriend;date;get a boyfriend</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\boyfriend.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
